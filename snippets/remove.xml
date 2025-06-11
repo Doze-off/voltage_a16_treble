@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build -->
+  <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/deprecated-ota" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/build/blueprint" />
+  <remove-project name="platform/libcore" />
+
+  <!-- External -->
+  <remove-project name="platform/external/dtc" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/tinycompress"/>
+  <remove-project name="platform/external/wpa_supplicant_8" />
+
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces"/>
+  <remove-project name="platform/hardware/libhardware"/>
+  <remove-project name="platform/hardware/qcom/wlan"/>
+
+  <!-- Kernel -->
+  <remove-project name="kernel/configs" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/modules/Connectivity"/>
+
+  <!-- System -->
+  <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/core"/>
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/librustutils" />
+  <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/sepolicy"/>
+  <remove-project name="platform/system/tools/mkbootimg" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
+
+</manifest>
