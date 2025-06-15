@@ -33,12 +33,14 @@
   <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="st" revision="16" />
 
   <!-- External -->
+  <project path="external/AppCompatConfig" name="external_AppCompatConfig" remote="st" revision="16" />
   <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="st" revision="16" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="st" revision="16" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="st" revision="16" />
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="st" revision="16" />
   <project path="external/dtc" name="external_dtc" remote="st" revision="16" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="st" revision="16" />
+  <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="st" revision="16" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="st" revision="16" />
   <project path="external/json-c" name="external_json-c" remote="st" revision="16" />
   <project path="external/mksh" name="external_mksh" remote="st" revision="16" />
@@ -50,6 +52,8 @@
   <!-- Framework -->
   <project path="frameworks/av" name="frameworks_av" remote="st" revision="16" />
   <project path="frameworks/base" name="frameworks_base_new" remote="st" revision="16" />
+  <project path="frameworks/libs/modules-utils" name="frameworks_libs_modules-utils" remote="st" revision="16" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="st" revision="16" />
   <project path="frameworks/native" name="frameworks_native" remote="st" revision="16" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="st" revision="16" />
 
@@ -95,19 +99,44 @@
   <project path="kernel/configs" name="kernel_configs" remote="st" />
 
   <!-- Packages -->
+  <project path="packages/apps/AppCompatConfig" name="packages_apps_AppCompatConfig" remote="st" revision="16" />
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="st" revision="16" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="st" revision="16" />
   <project path="packages/apps/Covers" name="packages_apps_Covers" remote="st" revision="16" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="st" revision="16" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="st" revision="16" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="st" revision="16" />
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="st" revision="16" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="st" revision="16" />
+  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="st" revision="16" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="st" revision="16" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="st" revision="16" />
+  <project path="packages/apps/LogViewer" name="packages_apps_LogViewer" remote="st" revision="16" />
+  <project path="packages/apps/NetworkLocation" name="packages_apps_NetworkLocation" remote="st" revision="16" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="st" revision="16" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="st" revision="16" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="st" revision="16" />
+  <project path="packages/modules/AppSearch" name="packages_modules_AppSearch" remote="st" revision="16" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="st" revision="16" />
+  <project path="packages/modules/common" name="packages_modules_common" remote="st" revision="16" />
+  <project path="packages/modules/ConfigInfrastructure" name="packages_modules_ConfigInfrastructure" remote="st" revision="16" />
+  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="st" revision="16" />
+  <project path="packages/modules/HealthFitness" name="packages_modules_HealthFitness" remote="st" revision="16" />
+  <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="st" revision="16" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="st" revision="16" />
+  <project path="packages/modules/RemoteKeyProvisioning" name="packages_modules_RemoteKeyProvisioning" remote="st" revision="16" />  
+  <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="st" revision="16" />
+  <project path="packages/modules/Uwb" name="packages_modules_Uwb" remote="st" revision="16" />
+  <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="st" revision="16" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="st" revision="16" />
   <project path="packages/modules/Connectivity" name="packages_modules_connectivity" remote="gitlab" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="st" revision="16" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="st" revision="16" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="st" revision="16" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="st" revision="16" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="st" revision="16" /> -->
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="st" revision="16" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="st" revision="16" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" clone-depth="1" remote="st" revision="16" />
