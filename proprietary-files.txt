@@ -1,0 +1,76 @@
+# All blobs are from A725FXXU4BULA, unless pinned
+
+# ACDB
+vendor/etc/audconf/OPEN/Global_cal.acdb
+vendor/etc/audconf/OPEN/Bluetooth_cal.acdb
+vendor/etc/audconf/OPEN/Headset_cal.acdb
+vendor/etc/audconf/OPEN/General_cal.acdb
+vendor/etc/audconf/OPEN/workspaceFile.qwsp
+vendor/etc/audconf/OPEN/Speaker_cal.acdb
+vendor/etc/audconf/OPEN/Hdmi_cal.acdb
+vendor/etc/audconf/OPEN/Handset_cal.acdb
+
+# Camera
+vendor/lib/camera/components/com.samsung.node.smooth_transition.so
+vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so
+vendor/lib/camera/components/com.samsung.node.uniplugin_vdis.so
+vendor/lib/camera/components/com.wrapper.stats.aec.so
+vendor/lib/camera/com.qti.eeprom.sec2qcconversion.so
+vendor/lib/camera/com.samsung.sensor.hi847.so
+vendor/lib64/camera/com.samsung.sensor.hi847.so
+vendor/lib/camera/com.samsung.sensormodule.0_0_sony_imx682.bin
+vendor/lib64/camera/com.samsung.sensormodule.0_0_sony_imx682.bin
+vendor/lib/camera/com.samsung.sensormodule.0_2_sony_dv_imx682_hw_2.bin
+vendor/lib64/camera/com.samsung.sensormodule.0_2_sony_dv_imx682_hw_2.bin
+vendor/lib/camera/com.samsung.sensormodule.0_3_lsi_dv_s5kgw1p_hw_2.bin
+vendor/lib64/camera/com.samsung.sensormodule.0_3_lsi_dv_s5kgw1p_hw_2.bin
+vendor/lib/camera/com.samsung.sensormodule.0_3_lsi_dv_s5kgw1p_hw_2_otp.bin
+vendor/lib64/camera/com.samsung.sensormodule.0_3_lsi_dv_s5kgw1p_hw_2_otp.bin
+vendor/lib/camera/com.samsung.sensormodule.3_0_hynix_hi847.bin
+vendor/lib64/camera/com.samsung.sensormodule.3_0_hynix_hi847.bin
+vendor/lib/camera/com.samsung.sensormodule.3_1_hynix_dv_hi847_hw_2.bin
+vendor/lib64/camera/com.samsung.sensormodule.3_1_hynix_dv_hi847_hw_2.bin
+vendor/lib/camera/com.samsung.sensormodule.4_lsi_gc5035_macro.bin
+vendor/lib64/camera/com.samsung.sensormodule.4_lsi_gc5035_macro.bin
+vendor/lib/camera/com.samsung.tuned.hynix_hi1336.bin
+vendor/lib64/camera/com.samsung.tuned.hynix_hi1336.bin
+vendor/lib/camera/com.samsung.tuned.hynix_hi847.bin
+vendor/lib64/camera/com.samsung.tuned.hynix_hi847.bin
+vendor/lib/camera/com.samsung.tuned.lsi_s5k3l6.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_s5k3l6.bin
+vendor/lib/camera/com.samsung.tuned.lsi_s5kgw1p.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_s5kgw1p.bin
+vendor/lib/camera/com.samsung.tuned.sony_imx682.bin
+vendor/lib64/camera/com.samsung.tuned.sony_imx682.bin
+vendor/lib/camera/ois_mcu_stm32g_fw.bin
+vendor/lib/camera/uw_dual_calibration.bin
+vendor/lib/hw/com.samsung.chi.override.so
+vendor/lib64/hw/com.samsung.chi.override.so
+vendor/lib/libIMUSensor.so
+vendor/lib64/libIMUSensor.so
+vendor/lib/libsec2qc_conversion.so
+vendor/lib64/libsec2qc_conversion.so
+vendor/lib/libvdis_interface.so
+vendor/lib64/libvdis_interface.so
+
+# Fingerprint
+vendor/lib/libbauthserver.so
+vendor/lib64/libbauthserver.so
+vendor/lib/libbauthtzcommon.so
+vendor/lib64/libbauthtzcommon.so
+vendor/lib/libsynaFpSensorTestNwd.so
+vendor/lib64/libsynaFpSensorTestNwd.so
+vendor/lib/libegis_fp_normal_sensor_test.so
+vendor/lib64/libegis_fp_normal_sensor_test.so
+vendor/lib/libqfp_sensortest.so
+vendor/lib64/libqfp_sensortest.so
+vendor/lib/libgf_in_system_lib.so
+vendor/lib64/libgf_in_system_lib.so
+
+# Graphics
+vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS667YM01_FHD.xml
+
+# Sensors
+vendor/etc/sensors/config/atoll_qrd_ak991x_0.json
+vendor/etc/sensors/config/atoll_qrd_lsm6dso_0.json
+vendor/etc/sensors/config/sns_hw_revision.json
